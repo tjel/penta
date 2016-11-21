@@ -3,13 +3,13 @@
 
 using namespace std;
 
-int main( ) 
-{ 
-    double a; 
-    cout<< "Enter a"; 
+int main( )
+{
+    double a;
+    cout<< "Enter a";
     cin>>a;
- 
-    cout<< "Perimeter of the pentagon is: "<< 5*a; 
-    cout<< "Area of the pentagon is:" << 5*a*a*sqrt(3)/4;
+
+    cout<< "Wszystkie smieszki: "<< 5*a;
+    cout<< "Skoncza na sybirze:" << 5*a*a*sqrt(3)/4;
     return 0;
-} 
+}
